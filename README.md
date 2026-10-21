@@ -20,3 +20,13 @@ I'm a Site Reliability Engineer. I keep large production systems running, with m
 <!--START_SECTION:activity-->
 - Opened PR [#190](https://github.com/jeppesens/eufy-clean/pull/190) in [jeppesens/eufy-clean](https://github.com/jeppesens/eufy-clean)
 <!--END_SECTION:activity-->
+
+---
+
+### contributions
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/atrepca/atrepca/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/atrepca/atrepca/output/snake.svg" />
+  <img alt="contribution snake" width="100%" src="https://raw.githubusercontent.com/atrepca/atrepca/output/snake.svg" />
+</picture>
