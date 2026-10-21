@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="56" viewBox="0 0 360 56" role="img" aria-label="$ Hi, I'm Alex!">
+<defs>
+  <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="45.2" y1="0" x2="326.0" y2="0"><stop offset="0.00" stop-color="#2f81f7"/><stop offset="0.50" stop-color="#6e7ff3"/><stop offset="1.00" stop-color="#a371f7"/></linearGradient>
+  <clipPath id="typed"><rect x="45.2" y="0" width="280.8" height="56">
+    <set attributeName="width" to="0" begin="0s" end="0.4s"/>
+    <animate attributeName="width" values="0.0;21.6;43.2;64.8;86.4;108.0;129.6;151.2;172.8;194.4;216.0;237.6;259.2;280.8" calcMode="discrete" begin="0.4s" dur="1.3s" fill="freeze"/>
+  </rect></clipPath>
+</defs>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,Liberation Mono,monospace" font-size="36" font-weight="700">
+  <text x="0" y="40" fill="#8b949e">$</text>
+  <text x="45.2" y="40" textLength="280.8" lengthAdjust="spacingAndGlyphs" fill="url(#g)" clip-path="url(#typed)">Hi, I&#39;m Alex!</text>
+</g>
+<rect x="330.0" y="12" width="18.4" height="34" fill="#a371f7">
+  <set attributeName="x" to="45.2" begin="0s" end="0.4s"/>
+  <animate attributeName="x" values="45.2;66.8;88.4;110.0;131.6;153.2;174.8;196.4;218.0;239.6;261.2;282.8;304.4;330.0" calcMode="discrete" begin="0.4s" dur="1.3s" fill="freeze"/>
+  <animate attributeName="opacity" values="1;0" calcMode="discrete" begin="1.7000000000000002s" dur="1s" repeatCount="indefinite"/>
+</rect>
+</svg>
