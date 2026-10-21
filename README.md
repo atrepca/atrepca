@@ -13,3 +13,10 @@ I'm a Site Reliability Engineer. I keep large production systems running, with m
 </a>
 
 [Interactive timeline](https://atrepca.github.io/atrepca/) · [All OSS contributions](https://github.com/search?q=involves%3Aatrepca+-user%3Aatrepca&type=issues&s=created&o=desc)
+
+---
+
+### recent activity
+<!--START_SECTION:activity-->
+- Opened PR [#190](https://github.com/jeppesens/eufy-clean/pull/190) in [jeppesens/eufy-clean](https://github.com/jeppesens/eufy-clean)
+<!--END_SECTION:activity-->
