@@ -18,6 +18,7 @@ I'm a Site Reliability Engineer. I keep large production systems running, with m
 
 ### recent activity
 <!--START_SECTION:activity-->
+- Opened PR [#69](https://github.com/jdeath/rd200v2/pull/69) in [jdeath/rd200v2](https://github.com/jdeath/rd200v2)
 - Opened PR [#190](https://github.com/jeppesens/eufy-clean/pull/190) in [jeppesens/eufy-clean](https://github.com/jeppesens/eufy-clean)
 <!--END_SECTION:activity-->
 
