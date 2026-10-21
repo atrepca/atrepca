@@ -1,0 +1,560 @@
+{
+  "user": "atrepca",
+  "generated": "2026-10-21",
+  "prs": [
+    {
+      "repo": "example42/puppet-splunk",
+      "number": 23,
+      "title": "Updates README.md: forward_server must be an array",
+      "url": "https://github.com/example42/puppet-splunk/pull/23",
+      "date": "2014-07-16",
+      "state": "merged"
+    },
+    {
+      "repo": "rvm/rvm",
+      "number": 3003,
+      "title": "Removes yum-config-manager from centos reqs, EPEL comes enabled",
+      "url": "https://github.com/rvm/rvm/pull/3003",
+      "date": "2014-08-30",
+      "state": "merged"
+    },
+    {
+      "repo": "voxpupuli/puppet-nodejs",
+      "number": 100,
+      "title": "Replace Chris Lea's PPA with the Nodesource repo",
+      "url": "https://github.com/voxpupuli/puppet-nodejs/pull/100",
+      "date": "2014-12-12",
+      "state": "merged"
+    },
+    {
+      "repo": "voxpupuli/puppet-mongodb",
+      "number": 179,
+      "title": "Add $restart param to control service restarts",
+      "url": "https://github.com/voxpupuli/puppet-mongodb/pull/179",
+      "date": "2015-06-02",
+      "state": "merged"
+    },
+    {
+      "repo": "hashicorp/puppet-bootstrap",
+      "number": 28,
+      "title": "Changes to the centos_6_x.sh bootstrap script:",
+      "url": "https://github.com/hashicorp/puppet-bootstrap/pull/28",
+      "date": "2015-12-09",
+      "state": "merged"
+    },
+    {
+      "repo": "sensu/sensu-puppet",
+      "number": 487,
+      "title": "Install rake < 11.0.0 for ruby < 1.9.3",
+      "url": "https://github.com/sensu/sensu-puppet/pull/487",
+      "date": "2016-03-16",
+      "state": "merged"
+    },
+    {
+      "repo": "voxpupuli/puppet-kafka",
+      "number": 112,
+      "title": "Update readme with the current Kafka & Scala versions",
+      "url": "https://github.com/voxpupuli/puppet-kafka/pull/112",
+      "date": "2016-11-01",
+      "state": "merged"
+    },
+    {
+      "repo": "lide-reed/apache2nginx",
+      "number": 5,
+      "title": "Add platform support to README.md",
+      "url": "https://github.com/lide-reed/apache2nginx/pull/5",
+      "date": "2018-09-21",
+      "state": "merged"
+    },
+    {
+      "repo": "terraform-aws-modules/terraform-aws-rds-aurora",
+      "number": 79,
+      "title": "feat: Add support for existing IAM role for enhanced monitoring",
+      "url": "https://github.com/terraform-aws-modules/terraform-aws-rds-aurora/pull/79",
+      "date": "2020-09-22",
+      "state": "merged"
+    },
+    {
+      "repo": "paulbayer/Inventory_Scripts",
+      "number": 5,
+      "title": "[CT_CheckAccount.py] Fix result table rows",
+      "url": "https://github.com/paulbayer/Inventory_Scripts/pull/5",
+      "state": "closed",
+      "date": "2022-04-11"
+    },
+    {
+      "repo": "thomasfr/hass-addons",
+      "number": 6,
+      "title": "Fixes for ShellCheck errors",
+      "url": "https://github.com/thomasfr/hass-addons/pull/6",
+      "state": "closed",
+      "date": "2023-03-04"
+    },
+    {
+      "repo": "VerticeOne/terraform-aws-vertice-integration",
+      "number": 42,
+      "title": "fix: Add missing default aws provider to README.md example",
+      "url": "https://github.com/VerticeOne/terraform-aws-vertice-integration/pull/42",
+      "date": "2024-07-15",
+      "state": "merged"
+    },
+    {
+      "repo": "MNThomson/terraform-provider-dominos",
+      "number": 44,
+      "title": "[README] Fix typo",
+      "url": "https://github.com/MNThomson/terraform-provider-dominos/pull/44",
+      "date": "2024-10-24",
+      "state": "merged"
+    },
+    {
+      "repo": "thomasfr/hass-addons",
+      "number": 20,
+      "title": "Add @ludeeus ShellCheck GitHub Action",
+      "url": "https://github.com/thomasfr/hass-addons/pull/20",
+      "state": "open",
+      "date": "2024-10-24"
+    },
+    {
+      "repo": "thomasfr/hass-addons",
+      "number": 19,
+      "title": "Add ShellCheck GitHub Action",
+      "url": "https://github.com/thomasfr/hass-addons/pull/19",
+      "state": "closed",
+      "date": "2024-10-24"
+    },
+    {
+      "repo": "edx/configuration",
+      "number": 229,
+      "title": "Revert \"chore: update assume role session duration to 4 hours\"",
+      "url": "https://github.com/edx/configuration/pull/229",
+      "date": "2025-07-31",
+      "state": "merged"
+    },
+    {
+      "repo": "antonbabenko/terraform-skill",
+      "number": 43,
+      "title": "Require plan-destroy review before any terraform destroy command",
+      "url": "https://github.com/antonbabenko/terraform-skill/pull/43",
+      "date": "2026-06-03",
+      "state": "merged"
+    },
+    {
+      "repo": "nikshriv/hass_navien_water_heater",
+      "number": 56,
+      "title": "Add error code sensors with decoded descriptions",
+      "url": "https://github.com/nikshriv/hass_navien_water_heater/pull/56",
+      "date": "2026-08-24",
+      "state": "merged"
+    },
+    {
+      "repo": "mail-in-a-box/mailinabox",
+      "number": 2588,
+      "title": "Fix contacts/calendar download as source archive",
+      "url": "https://github.com/mail-in-a-box/mailinabox/pull/2588",
+      "date": "2026-09-01",
+      "state": "merged"
+    },
+    {
+      "repo": "jeppesens/eufy-clean",
+      "number": 190,
+      "title": "Fix per-model accessory lifespans + correct L60 SES values",
+      "url": "https://github.com/jeppesens/eufy-clean/pull/190",
+      "state": "open",
+      "date": "2026-10-21"
+    }
+  ],
+  "repos": {
+    "MNThomson/terraform-provider-dominos": {
+      "name": "MNThomson/terraform-provider-dominos",
+      "stars": 90,
+      "description": "\ud83c\udfb2\ud83c\udf55 The Terraform plugin for the Dominos Pizza provider",
+      "area": "IaC",
+      "legacy": false,
+      "all_prs": "https://github.com/MNThomson/terraform-provider-dominos/pulls?q=is:pr+author:atrepca+is:merged"
+    },
+    "VerticeOne/terraform-aws-vertice-integration": {
+      "name": "VerticeOne/terraform-aws-vertice-integration",
+      "stars": 3,
+      "description": "Terraform module to provide Vertice Cloud Cost Optimization with access to your AWS accounts",
+      "area": "IaC",
+      "legacy": false,
+      "all_prs": "https://github.com/VerticeOne/terraform-aws-vertice-integration/pulls?q=is:pr+author:atrepca+is:merged"
+    },
+    "antonbabenko/terraform-skill": {
+      "name": "antonbabenko/terraform-skill",
+      "stars": 2420,
+      "description": "Terraform & OpenTofu Skill for AI Agents - testing, modules, CI/CD, and production patterns",
+      "area": "AI tooling",
+      "legacy": false,
+      "all_prs": "https://github.com/antonbabenko/terraform-skill/pulls?q=is:pr+author:atrepca+is:merged"
+    },
+    "edx/configuration": {
+      "name": "edx/configuration",
+      "stars": 2,
+      "description": "A collection of edx configuration scripts and utilities that edx.org uses to deploy openedx.",
+      "area": "Config management",
+      "legacy": true,
+      "all_prs": "https://github.com/edx/configuration/pulls?q=is:pr+author:atrepca+is:merged"
+    },
+    "example42/puppet-splunk": {
+      "name": "example42/puppet-splunk",
+      "stars": 12,
+      "description": "Splunk Puppet Module",
+      "area": "Config management",
+      "legacy": true,
+      "all_prs": "https://github.com/example42/puppet-splunk/pulls?q=is:pr+author:atrepca+is:merged"
+    },
+    "hashicorp/puppet-bootstrap": {
+      "name": "hashicorp/puppet-bootstrap",
+      "stars": 442,
+      "description": "A collection of single-file scripts to bootstrap your machines with Puppet.",
+      "area": "Config management",
+      "legacy": true,
+      "all_prs": "https://github.com/hashicorp/puppet-bootstrap/pulls?q=is:pr+author:atrepca+is:merged"
+    },
+    "lide-reed/apache2nginx": {
+      "name": "lide-reed/apache2nginx",
+      "stars": 283,
+      "description": "A command line tool, which can be used to generate nginx config file according to given config files of Apache",
+      "area": "Dev tooling",
+      "legacy": true,
+      "all_prs": "https://github.com/lide-reed/apache2nginx/pulls?q=is:pr+author:atrepca+is:merged"
+    },
+    "mail-in-a-box/mailinabox": {
+      "name": "mail-in-a-box/mailinabox",
+      "stars": 15444,
+      "description": "Mail-in-a-Box helps individuals take back control of their email by defining a one-click, easy-to-deploy SMTP+everything else server: a mail server in a box.",
+      "area": "Self-hosting",
+      "legacy": false,
+      "all_prs": "https://github.com/mail-in-a-box/mailinabox/pulls?q=is:pr+author:atrepca+is:merged"
+    },
+    "nikshriv/hass_navien_water_heater": {
+      "name": "nikshriv/hass_navien_water_heater",
+      "stars": 84,
+      "description": "Home Assistant custom component for Navien water heaters using NaviLink",
+      "area": "Home automation",
+      "legacy": false,
+      "all_prs": "https://github.com/nikshriv/hass_navien_water_heater/pulls?q=is:pr+author:atrepca+is:merged"
+    },
+    "rvm/rvm": {
+      "name": "rvm/rvm",
+      "stars": 5186,
+      "description": "Ruby enVironment Manager (RVM)",
+      "area": "Dev tooling",
+      "legacy": true,
+      "all_prs": "https://github.com/rvm/rvm/pulls?q=is:pr+author:atrepca+is:merged"
+    },
+    "sensu/sensu-puppet": {
+      "name": "sensu/sensu-puppet",
+      "stars": 163,
+      "description": "Sensu Puppet module.",
+      "area": "Observability",
+      "legacy": true,
+      "all_prs": "https://github.com/sensu/sensu-puppet/pulls?q=is:pr+author:atrepca+is:merged"
+    },
+    "terraform-aws-modules/terraform-aws-rds-aurora": {
+      "name": "terraform-aws-modules/terraform-aws-rds-aurora",
+      "stars": 423,
+      "description": "Terraform module to create AWS RDS Aurora resources \ud83c\uddfa\ud83c\udde6",
+      "area": "IaC",
+      "legacy": false,
+      "all_prs": "https://github.com/terraform-aws-modules/terraform-aws-rds-aurora/pulls?q=is:pr+author:atrepca+is:merged"
+    },
+    "voxpupuli/puppet-kafka": {
+      "name": "voxpupuli/puppet-kafka",
+      "stars": 31,
+      "description": "The kafka module for managing the installation and configuration of Apache Kafka",
+      "area": "Config management",
+      "legacy": true,
+      "all_prs": "https://github.com/voxpupuli/puppet-kafka/pulls?q=is:pr+author:atrepca+is:merged"
+    },
+    "voxpupuli/puppet-mongodb": {
+      "name": "voxpupuli/puppet-mongodb",
+      "stars": 90,
+      "description": "mongodb installation",
+      "area": "Config management",
+      "legacy": true,
+      "all_prs": "https://github.com/voxpupuli/puppet-mongodb/pulls?q=is:pr+author:atrepca+is:merged"
+    },
+    "voxpupuli/puppet-nodejs": {
+      "name": "voxpupuli/puppet-nodejs",
+      "stars": 112,
+      "description": "Puppet module to install nodejs and global npm packages",
+      "area": "Config management",
+      "legacy": true,
+      "all_prs": "https://github.com/voxpupuli/puppet-nodejs/pulls?q=is:pr+author:atrepca+is:merged"
+    },
+    "jeppesens/eufy-clean": {
+      "name": "jeppesens/eufy-clean",
+      "stars": 222,
+      "description": "Eufy Clean Home Assistant Custom Component",
+      "all_prs": "https://github.com/jeppesens/eufy-clean/pulls?q=is:pr+author:atrepca+is:merged",
+      "area": "Home automation",
+      "legacy": false
+    },
+    "thomasfr/hass-addons": {
+      "name": "thomasfr/hass-addons",
+      "stars": 15,
+      "description": "",
+      "all_prs": "https://github.com/thomasfr/hass-addons/pulls?q=is:pr+author:atrepca+is:merged",
+      "area": "Home automation",
+      "legacy": false
+    },
+    "paulbayer/Inventory_Scripts": {
+      "name": "paulbayer/Inventory_Scripts",
+      "stars": 41,
+      "description": "A Repo to hold scripts that help list out the inventory of your AWS environment.",
+      "all_prs": "https://github.com/paulbayer/Inventory_Scripts/pulls?q=is:pr+author:atrepca+is:merged",
+      "area": "Other",
+      "legacy": false
+    }
+  },
+  "layout": {
+    "width": 880,
+    "height": 260,
+    "axis": 220,
+    "pad": 24,
+    "pins": [
+      {
+        "pr": 0,
+        "x": 58.3,
+        "y": 162.5
+      },
+      {
+        "pr": 1,
+        "x": 66.2,
+        "y": 65.6
+      },
+      {
+        "pr": 2,
+        "x": 84.5,
+        "y": 127.5
+      },
+      {
+        "pr": 3,
+        "x": 114.6,
+        "y": 131.0
+      },
+      {
+        "pr": 4,
+        "x": 147.9,
+        "y": 105.4
+      },
+      {
+        "pr": 5,
+        "x": 165.1,
+        "y": 121.5
+      },
+      {
+        "pr": 6,
+        "x": 205.4,
+        "y": 147.9
+      },
+      {
+        "pr": 7,
+        "x": 326.1,
+        "y": 112.6
+      },
+      {
+        "pr": 8,
+        "x": 454.4,
+        "y": 106.2
+      },
+      {
+        "pr": 9,
+        "x": 553.6,
+        "y": 143.5
+      },
+      {
+        "pr": 10,
+        "x": 610.9,
+        "y": 159.2
+      },
+      {
+        "pr": 11,
+        "x": 698.3,
+        "y": 181.6
+      },
+      {
+        "pr": 12,
+        "x": 716.0,
+        "y": 131.0
+      },
+      {
+        "pr": 13,
+        "x": 716.0,
+        "y": 159.2
+      },
+      {
+        "pr": 14,
+        "x": 716.0,
+        "y": 159.2
+      },
+      {
+        "pr": 15,
+        "x": 765.1,
+        "y": 186.2
+      },
+      {
+        "pr": 16,
+        "x": 818.9,
+        "y": 78.0
+      },
+      {
+        "pr": 17,
+        "x": 833.2,
+        "y": 132.1
+      },
+      {
+        "pr": 18,
+        "x": 834.6,
+        "y": 48.0
+      },
+      {
+        "pr": 19,
+        "x": 843.4,
+        "y": 116.5
+      }
+    ],
+    "labels": [
+      {
+        "repo": "mail-in-a-box/mailinabox",
+        "text": "mailinabox",
+        "x": 756.6,
+        "y": 52.0,
+        "leader": false,
+        "px": 834.6,
+        "py": 48.0,
+        "lx": 827.6
+      },
+      {
+        "repo": "antonbabenko/terraform-skill",
+        "text": "terraform-skill",
+        "x": 706.9,
+        "y": 82.0,
+        "leader": false,
+        "px": 818.9,
+        "py": 78.0,
+        "lx": 811.9
+      },
+      {
+        "repo": "terraform-aws-modules/terraform-aws-rds-aurora",
+        "text": "terraform-aws-rds-aurora",
+        "x": 464.4,
+        "y": 110.2,
+        "leader": false,
+        "px": 454.4,
+        "py": 106.2,
+        "lx": 461.4
+      },
+      {
+        "repo": "jeppesens/eufy-clean",
+        "text": "eufy-clean",
+        "x": 765.4,
+        "y": 120.5,
+        "leader": false,
+        "px": 843.4,
+        "py": 116.5,
+        "lx": 836.4
+      },
+      {
+        "repo": "MNThomson/terraform-provider-dominos",
+        "text": "terraform-provider-dominos",
+        "x": 529.2,
+        "y": 135.0,
+        "leader": false,
+        "px": 716.0,
+        "py": 131.0,
+        "lx": 709.0
+      },
+      {
+        "repo": "nikshriv/hass_navien_water_heater",
+        "text": "hass_navien_water_heater",
+        "x": 660.0,
+        "y": 104.1,
+        "leader": true,
+        "px": 833.2,
+        "py": 132.1,
+        "lx": 826.2
+      },
+      {
+        "repo": "thomasfr/hass-addons",
+        "text": "hass-addons",
+        "x": 726.0,
+        "y": 163.2,
+        "leader": false,
+        "px": 716.0,
+        "py": 159.2,
+        "lx": 723.0
+      },
+      {
+        "repo": "VerticeOne/terraform-aws-vertice-integration",
+        "text": "terraform-aws-vertice-integration",
+        "x": 463.9,
+        "y": 185.6,
+        "leader": false,
+        "px": 698.3,
+        "py": 181.6,
+        "lx": 691.3
+      }
+    ],
+    "ticks": [
+      {
+        "year": 2014,
+        "x": 24.0
+      },
+      {
+        "year": 2015,
+        "x": 88.0
+      },
+      {
+        "year": 2016,
+        "x": 151.9
+      },
+      {
+        "year": 2017,
+        "x": 216.1
+      },
+      {
+        "year": 2018,
+        "x": 280.0
+      },
+      {
+        "year": 2019,
+        "x": 344.0
+      },
+      {
+        "year": 2020,
+        "x": 407.9
+      },
+      {
+        "year": 2021,
+        "x": 472.1
+      },
+      {
+        "year": 2022,
+        "x": 536.0
+      },
+      {
+        "year": 2023,
+        "x": 600.0
+      },
+      {
+        "year": 2024,
+        "x": 663.9
+      },
+      {
+        "year": 2025,
+        "x": 728.1
+      },
+      {
+        "year": 2026,
+        "x": 792.0
+      },
+      {
+        "year": 2027,
+        "x": 856.0
+      }
+    ]
+  }
+}

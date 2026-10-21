@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alex Trepca · Open Source</title>
+<meta name="description" content="Merged upstream pull requests by Alex Trepca (atrepca).">
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1f2328; --muted: #656d76; --grid: #d0d7de; --card: #f6f8fa; --link: #0969da;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  main { max-width: 960px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 24px; margin: 0 0 4px; }
+  h2 { font-size: 17px; margin: 40px 0 8px; }
+  p.lede { color: var(--muted); margin: 0 0 24px; max-width: 62ch; }
+  a { color: var(--link); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .chart { position: relative; background: var(--card); border: 1px solid var(--grid); border-radius: 8px; overflow-x: auto; }
+  .chart svg { display: block; min-width: 640px; width: 100%; height: auto; }
+  .pin { cursor: pointer; transition: r .12s; }
+  .pin:hover, .pin:focus { r: 9; outline: none; }
+  .legend { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 10px 0 0; font-size: 13px; color: var(--muted); }
+  .legend .key::before { display: none; }
+  .legend span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 50%;
+                         background: var(--c); margin-right: 6px; vertical-align: -1px; }
+  #tip { position: fixed; pointer-events: none; z-index: 10; max-width: 320px; padding: 10px 12px;
+         background: var(--bg); border: 1px solid var(--grid); border-radius: 8px; font-size: 13px;
+         box-shadow: 0 6px 24px rgba(0,0,0,.18); opacity: 0; transition: opacity .1s; }
+  #tip b { display: block; font-size: 14px; }
+  #tip .m { color: var(--muted); }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--grid); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; }
+  td.num { white-space: nowrap; color: var(--muted); }
+  ul.earlier { padding-left: 18px; color: var(--muted); }
+  footer { margin-top: 40px; font-size: 13px; color: var(--muted); }
+  @media (max-width: 640px) { th.hide, td.hide { display: none; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Open source contributions</h1>
+  <p class="lede">Pull requests I've opened in projects I don't own. Each pin is one PR: solid pins are merged,
+    hollow pins are still in review, and faded hollow pins were closed without merging. Its height is the project's star count on a log scale. Hover for details, click to open the PR.</p>
+
+  <div class="chart" id="chart"></div>
+  <div class="legend" id="legend"></div>
+
+  <h2>Projects</h2>
+  <table>
+    <thead><tr><th>Project</th><th class="hide">Area</th><th>Pull requests</th><th class="hide">Stars</th></tr></thead>
+    <tbody id="rows"></tbody>
+  </table>
+
+  <h2>Earlier work</h2>
+  <ul class="earlier" id="earlier"></ul>
+
+  <footer>
+    <a href="https://github.com/search?q=involves%3Aatrepca+-user%3Aatrepca&type=issues&s=created&o=desc">All OSS contributions on GitHub</a>
+    · <a href="https://github.com/atrepca">github.com/atrepca</a>
+    · <span id="gen"></span>
+  </footer>
+</main>
+<div id="tip" role="tooltip"></div>
+
+<script>
+const COLORS = {
+  "IaC": "#7b42bc", "AI tooling": "#d97757", "Self-hosting": "#2f81f7", "Observability": "#3fb950",
+  "Home automation": "#db61a2", "Config management": "#8b949e", "Dev tooling": "#d29922", "Other": "#8b949e"
+};
+const NS = "http://www.w3.org/2000/svg";
+const el = (tag, attrs = {}, parent) => {
+  const n = document.createElementNS(NS, tag);
+  for (const [k, v] of Object.entries(attrs)) n.setAttribute(k, v);
+  if (parent) parent.appendChild(n);
+  return n;
+};
+const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const fmt = n => n >= 1000 ? (n / 1000).toFixed(1).replace(/\.0$/, "") + "k" : String(n);
+
+fetch("oss.json").then(r => r.json()).then(data => {
+  const { prs, repos } = data;
+  document.getElementById("gen").textContent = "updated " + data.generated;
+
+  // Positions come precomputed from scripts/oss_contribs.py so this matches the README image.
+  const L = data.layout, W = L.width, H = L.height, axisY = L.axis;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Timeline of upstream pull requests" });
+  el("line", { x1: L.pad, y1: axisY, x2: W - L.pad, y2: axisY, stroke: "var(--grid)" }, svg);
+  for (const t of L.ticks) {
+    el("line", { x1: t.x, y1: axisY, x2: t.x, y2: axisY + 4, stroke: "var(--grid)" }, svg);
+    el("text", { x: t.x, y: axisY + 18, "font-size": 11, "text-anchor": "middle", fill: "var(--muted)" }, svg).textContent = t.year;
+  }
+
+  const tip = document.getElementById("tip");
+  const show = (e, p, r) => {
+    tip.innerHTML = `<b>${esc(r.name)}</b><span class="m">★ ${fmt(r.stars)} · ${esc(r.area)}</span>` +
+      `<div style="margin-top:6px">${esc(p.title)} <span class="m">#${p.number}</span></div>` +
+      `<div class="m">${{ open: "open, awaiting review since", closed: "closed, not merged · opened", merged: "merged" }[p.state]} ${p.date}</div>` +
+      (r.description ? `<div class="m" style="margin-top:6px">${esc(r.description)}</div>` : "");
+    const box = e.target.getBoundingClientRect();
+    tip.style.opacity = 1;
+    const tw = tip.offsetWidth, th = tip.offsetHeight;
+    let left = box.left + box.width / 2 - tw / 2;
+    left = Math.max(8, Math.min(left, innerWidth - tw - 8));
+    const top = box.top - th - 10 < 8 ? box.bottom + 10 : box.top - th - 10;
+    tip.style.left = left + "px";
+    tip.style.top = top + "px";
+  };
+  const hide = () => { tip.style.opacity = 0; };
+
+  for (const lab of L.labels) {
+    if (lab.leader) el("line", { x1: lab.px, y1: lab.py, x2: lab.lx, y2: lab.y - 4, stroke: "var(--muted)", "stroke-opacity": .6 }, svg);
+    el("text", { x: lab.x, y: lab.y, "font-size": 12, fill: "var(--fg)", "pointer-events": "none" }, svg).textContent = lab.text;
+  }
+  for (const pin of L.pins) {
+    const p = prs[pin.pr], r = repos[p.repo], c = COLORS[r.area] || COLORS.Other;
+    const open = p.state !== "merged";
+    el("line", { x1: pin.x, y1: pin.y + (open ? 5 : 0), x2: pin.x, y2: axisY, stroke: c, "stroke-opacity": .35 }, svg);
+    const a = el("a", { href: p.url, target: "_blank", rel: "noopener" }, svg);
+    const dot = el("circle", { class: "pin", cx: pin.x, cy: pin.y, r: open ? 5 : 6,
+                               fill: open ? "var(--card)" : c, "fill-opacity": r.legacy ? .45 : 1,
+                               stroke: open ? c : "var(--card)", "stroke-width": open ? 2 : 1.5,
+                               "stroke-opacity": p.state === "closed" ? .45 : 1, tabindex: 0,
+                               "aria-label": `${r.name}: ${p.title}` }, a);
+    dot.addEventListener("mouseenter", e => show(e, p, r));
+    dot.addEventListener("focus", e => show(e, p, r));
+    dot.addEventListener("mouseleave", hide);
+    dot.addEventListener("blur", hide);
+  }
+  document.getElementById("chart").appendChild(svg);
+
+  const areas = [...new Set(Object.values(repos).map(r => r.area))];
+  document.getElementById("legend").innerHTML =
+    areas.map(a => `<span style="--c:${COLORS[a] || COLORS.Other}">${esc(a)}</span>`).join("") +
+    `<span class="key">● merged &nbsp;○ in review &nbsp;<span style="opacity:.45">○</span> closed</span>`;
+
+  const byRepo = {};
+  for (const p of prs) (byRepo[p.repo] ||= []).push(p);
+  const link = p => `<a href="${p.url}">${esc(p.title)}</a> <span style="color:var(--muted)">#${p.number}` +
+    ({ open: " · in review", closed: " · not merged" }[p.state] || "") + `</span>`;
+  const current = Object.values(repos).filter(r => !r.legacy).sort((a, b) => b.stars - a.stars);
+  document.getElementById("rows").innerHTML = current.map(r => `
+    <tr><td><a href="https://github.com/${r.name}">${esc(r.name)}</a></td>
+        <td class="hide">${esc(r.area)}</td>
+        <td>${byRepo[r.name].map(link).join("<br>")}${byRepo[r.name].length > 1 ? ` · <a href="${r.all_prs}">all</a>` : ""}</td>
+        <td class="num hide">★ ${fmt(r.stars)}</td></tr>`).join("");
+  const legacy = Object.values(repos).filter(r => r.legacy).sort((a, b) => b.stars - a.stars);
+  document.getElementById("earlier").innerHTML = legacy.map(r =>
+    `<li><a href="https://github.com/${r.name}">${esc(r.name)}</a>: ${byRepo[r.name].map(link).join(", ")}</li>`).join("");
+});
+</script>
+</body>
+</html>

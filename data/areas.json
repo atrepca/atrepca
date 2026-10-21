@@ -1,0 +1,20 @@
+{
+  "antonbabenko/terraform-skill": {"area": "AI tooling"},
+  "mail-in-a-box/mailinabox": {"area": "Self-hosting"},
+  "terraform-aws-modules/terraform-aws-rds-aurora": {"area": "IaC"},
+  "VerticeOne/terraform-aws-vertice-integration": {"area": "IaC"},
+  "MNThomson/terraform-provider-dominos": {"area": "IaC"},
+  "nikshriv/hass_navien_water_heater": {"area": "Home automation"},
+  "rvm/rvm": {"area": "Dev tooling", "legacy": true},
+  "lide-reed/apache2nginx": {"area": "Dev tooling", "legacy": true},
+  "edx/configuration": {"area": "Config management", "legacy": true},
+  "sensu/sensu-puppet": {"area": "Observability", "legacy": true},
+  "voxpupuli/puppet-mongodb": {"area": "Config management", "legacy": true},
+  "voxpupuli/puppet-nodejs": {"area": "Config management", "legacy": true},
+  "voxpupuli/puppet-kafka": {"area": "Config management", "legacy": true},
+  "example42/puppet-splunk": {"area": "Config management", "legacy": true},
+  "hashicorp/puppet-bootstrap": {"area": "Config management", "legacy": true},
+  "jeppesens/eufy-clean": {"area": "Home automation"},
+  "thomasfr/hass-addons": {"area": "Home automation"},
+  "paulbayer/Inventory_Scripts": {"area": "Other"}
+}
