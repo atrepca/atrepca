@@ -51,12 +51,12 @@ def describe(ev):
     if ev["type"] == "PullRequestEvent" and p["action"] in ("opened", "closed", "merged"):
         pr = p["pull_request"]
         if p["action"] == "opened":
-            emoji, verb = "", "Opened"
+            emoji, verb = "💪", "Opened"
         elif p["action"] == "merged" or pr.get("merged"):
             emoji, verb = "🎉", "Merged"
         else:
             emoji, verb = "❌", "Closed"
-        return f"{emoji} {verb} PR {link('#' + str(pr['number']), web(repo, 'pull', pr['number']))} in {repo_link}".lstrip()
+        return f"{emoji} {verb} PR {link('#' + str(pr['number']), web(repo, 'pull', pr['number']))} in {repo_link}"
     if ev["type"] == "ReleaseEvent" and p["action"] == "published":
         rel = p["release"]
         url = rel.get("html_url") or f"https://github.com/{repo}/releases/tag/{rel['tag_name']}"

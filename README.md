@@ -20,8 +20,8 @@ I'm a Site Reliability Engineer. I keep large production systems running, with m
 <!--START_SECTION:activity-->
 - ❗️ Opened issue [#16](https://github.com/networkedartifacts/airlab/issues/16) in [networkedartifacts/airlab](https://github.com/networkedartifacts/airlab)
 - 🎉 Merged PR [#69](https://github.com/jdeath/rd200v2/pull/69) in [jdeath/rd200v2](https://github.com/jdeath/rd200v2)
-- Opened PR [#69](https://github.com/jdeath/rd200v2/pull/69) in [jdeath/rd200v2](https://github.com/jdeath/rd200v2)
-- Opened PR [#190](https://github.com/jeppesens/eufy-clean/pull/190) in [jeppesens/eufy-clean](https://github.com/jeppesens/eufy-clean)
+- 💪 Opened PR [#69](https://github.com/jdeath/rd200v2/pull/69) in [jdeath/rd200v2](https://github.com/jdeath/rd200v2)
+- 💪 Opened PR [#190](https://github.com/jeppesens/eufy-clean/pull/190) in [jeppesens/eufy-clean](https://github.com/jeppesens/eufy-clean)
 <!--END_SECTION:activity-->
 
 ---
