@@ -54,21 +54,25 @@
 <circle cx="716.0" cy="159.2" r="5" fill="none" stroke="#db61a2" stroke-width="2" stroke-opacity="0.45"/>
 <line x1="765.1" y1="186.2" x2="765.1" y2="220" stroke="#8b949e" stroke-opacity="0.35"/>
 <circle cx="765.1" cy="186.2" r="6" fill="#8b949e" fill-opacity="0.45"/>
-<line x1="818.9" y1="78.0" x2="818.9" y2="220" stroke="#d97757" stroke-opacity="0.35"/>
-<circle cx="818.9" cy="78.0" r="6" fill="#d97757" fill-opacity="1"/>
+<line x1="818.9" y1="77.9" x2="818.9" y2="220" stroke="#d97757" stroke-opacity="0.35"/>
+<circle cx="818.9" cy="77.9" r="6" fill="#d97757" fill-opacity="1"/>
 <line x1="833.2" y1="132.1" x2="833.2" y2="220" stroke="#db61a2" stroke-opacity="0.35"/>
 <circle cx="833.2" cy="132.1" r="6" fill="#db61a2" fill-opacity="1"/>
 <line x1="834.6" y1="48.0" x2="834.6" y2="220" stroke="#2f81f7" stroke-opacity="0.35"/>
 <circle cx="834.6" cy="48.0" r="6" fill="#2f81f7" fill-opacity="1"/>
-<line x1="843.4" y1="121.5" x2="843.4" y2="220" stroke="#db61a2" stroke-opacity="0.35"/>
-<circle cx="843.4" cy="116.5" r="5" fill="none" stroke="#db61a2" stroke-width="2"/>
+<line x1="843.4" y1="123.2" x2="843.4" y2="220" stroke="#8b949e" stroke-opacity="0.35"/>
+<circle cx="843.4" cy="123.2" r="6" fill="#8b949e" fill-opacity="1"/>
+<line x1="843.4" y1="121.4" x2="843.4" y2="220" stroke="#db61a2" stroke-opacity="0.35"/>
+<circle cx="843.4" cy="116.4" r="5" fill="none" stroke="#db61a2" stroke-width="2"/>
 <text x="756.6" y="52.0" font-size="12" fill="#e6edf3">mailinabox</text>
-<text x="706.9" y="82.0" font-size="12" fill="#e6edf3">terraform-skill</text>
+<text x="706.9" y="81.9" font-size="12" fill="#e6edf3">terraform-skill</text>
 <text x="464.4" y="110.2" font-size="12" fill="#e6edf3">terraform-aws-rds-aurora</text>
-<text x="765.4" y="120.5" font-size="12" fill="#e6edf3">eufy-clean</text>
+<text x="765.4" y="120.4" font-size="12" fill="#e6edf3">eufy-clean</text>
+<line x1="843.4" y1="123.2" x2="836.4" y2="155.2" stroke="#8d96a0" stroke-opacity="0.6"/>
+<text x="785.8" y="159.2" font-size="12" fill="#e6edf3">rd200v2</text>
 <text x="529.2" y="135.0" font-size="12" fill="#e6edf3">terraform-provider-dominos</text>
 <line x1="833.2" y1="132.1" x2="826.2" y2="100.1" stroke="#8d96a0" stroke-opacity="0.6"/>
 <text x="660.0" y="104.1" font-size="12" fill="#e6edf3">hass_navien_water_heater</text>
-<text x="726.0" y="163.2" font-size="12" fill="#e6edf3">hass-addons</text>
+<text x="631.2" y="163.2" font-size="12" fill="#e6edf3">hass-addons</text>
 <text x="463.9" y="185.6" font-size="12" fill="#e6edf3">terraform-aws-vertice-integration</text>
 </svg>
