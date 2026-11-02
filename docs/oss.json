@@ -1,6 +1,6 @@
 {
   "user": "atrepca",
-  "generated": "2026-10-26",
+  "generated": "2026-11-02",
   "prs": [
     {
       "repo": "example42/puppet-splunk",
@@ -167,8 +167,8 @@
       "number": 190,
       "title": "Fix per-model accessory lifespans + correct L60 SES values",
       "url": "https://github.com/jeppesens/eufy-clean/pull/190",
-      "state": "open",
-      "date": "2026-10-21"
+      "state": "merged",
+      "date": "2026-11-02"
     }
   ],
   "repos": {
@@ -190,7 +190,7 @@
     },
     "antonbabenko/terraform-skill": {
       "name": "antonbabenko/terraform-skill",
-      "stars": 2426,
+      "stars": 2434,
       "description": "Terraform & OpenTofu Skill for AI Agents - testing, modules, CI/CD, and production patterns",
       "all_prs": "https://github.com/antonbabenko/terraform-skill/pulls?q=is:pr+author:atrepca+is:merged",
       "area": "AI tooling",
@@ -222,7 +222,7 @@
     },
     "jdeath/rd200v2": {
       "name": "jdeath/rd200v2",
-      "stars": 147,
+      "stars": 149,
       "description": "RadonEye RD200 Version 2 Integration for Home Assistant",
       "all_prs": "https://github.com/jdeath/rd200v2/pulls?q=is:pr+author:atrepca+is:merged",
       "area": "Other",
@@ -230,7 +230,7 @@
     },
     "jeppesens/eufy-clean": {
       "name": "jeppesens/eufy-clean",
-      "stars": 224,
+      "stars": 227,
       "description": "Eufy Clean Home Assistant Custom Component",
       "all_prs": "https://github.com/jeppesens/eufy-clean/pulls?q=is:pr+author:atrepca+is:merged",
       "area": "Home automation",
@@ -246,7 +246,7 @@
     },
     "mail-in-a-box/mailinabox": {
       "name": "mail-in-a-box/mailinabox",
-      "stars": 15449,
+      "stars": 15454,
       "description": "Mail-in-a-Box helps individuals take back control of their email by defining a one-click, easy-to-deploy SMTP+everything else server: a mail server in a box.",
       "all_prs": "https://github.com/mail-in-a-box/mailinabox/pulls?q=is:pr+author:atrepca+is:merged",
       "area": "Self-hosting",
@@ -254,7 +254,7 @@
     },
     "nikshriv/hass_navien_water_heater": {
       "name": "nikshriv/hass_navien_water_heater",
-      "stars": 84,
+      "stars": 85,
       "description": "Home Assistant custom component for Navien water heaters using NaviLink",
       "all_prs": "https://github.com/nikshriv/hass_navien_water_heater/pulls?q=is:pr+author:atrepca+is:merged",
       "area": "Home automation",
@@ -270,7 +270,7 @@
     },
     "rvm/rvm": {
       "name": "rvm/rvm",
-      "stars": 5187,
+      "stars": 5189,
       "description": "Ruby enVironment Manager (RVM)",
       "all_prs": "https://github.com/rvm/rvm/pulls?q=is:pr+author:atrepca+is:merged",
       "area": "Dev tooling",
@@ -278,7 +278,7 @@
     },
     "sensu/sensu-puppet": {
       "name": "sensu/sensu-puppet",
-      "stars": 163,
+      "stars": 162,
       "description": "Sensu Puppet module.",
       "all_prs": "https://github.com/sensu/sensu-puppet/pulls?q=is:pr+author:atrepca+is:merged",
       "area": "Observability",
@@ -359,7 +359,7 @@
       {
         "pr": 5,
         "x": 165.1,
-        "y": 121.5
+        "y": 121.6
       },
       {
         "pr": 6,
@@ -379,7 +379,7 @@
       {
         "pr": 9,
         "x": 553.6,
-        "y": 143.5
+        "y": 143.6
       },
       {
         "pr": 10,
@@ -419,7 +419,7 @@
       {
         "pr": 17,
         "x": 833.2,
-        "y": 132.1
+        "y": 132.0
       },
       {
         "pr": 18,
@@ -429,12 +429,12 @@
       {
         "pr": 19,
         "x": 843.4,
-        "y": 123.2
+        "y": 123.0
       },
       {
         "pr": 20,
-        "x": 843.4,
-        "y": 116.4
+        "x": 845.5,
+        "y": 116.2
       }
     ],
     "labels": [
@@ -471,21 +471,21 @@
       {
         "repo": "jeppesens/eufy-clean",
         "text": "eufy-clean",
-        "x": 765.4,
-        "y": 120.4,
-        "leader": false,
-        "px": 843.4,
-        "py": 116.4,
-        "lx": 836.4
+        "x": 767.5,
+        "y": 104.2,
+        "leader": true,
+        "px": 845.5,
+        "py": 116.2,
+        "lx": 838.5
       },
       {
         "repo": "jdeath/rd200v2",
         "text": "rd200v2",
         "x": 785.8,
-        "y": 159.2,
+        "y": 159.0,
         "leader": true,
         "px": 843.4,
-        "py": 123.2,
+        "py": 123.0,
         "lx": 836.4
       },
       {
@@ -502,10 +502,10 @@
         "repo": "nikshriv/hass_navien_water_heater",
         "text": "hass_navien_water_heater",
         "x": 660.0,
-        "y": 104.1,
+        "y": 120.0,
         "leader": true,
         "px": 833.2,
-        "py": 132.1,
+        "py": 132.0,
         "lx": 826.2
       },
       {
