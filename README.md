@@ -18,11 +18,11 @@ I'm a Site Reliability Engineer. I keep large production systems running, with m
 
 ### recent activity
 <!--START_SECTION:activity-->
-- 🎉 Merged PR [#190](https://github.com/jeppesens/eufy-clean/pull/190) in [jeppesens/eufy-clean](https://github.com/jeppesens/eufy-clean)
 - 🗣 Commented on [#190](https://github.com/jeppesens/eufy-clean/issues/190) in [jeppesens/eufy-clean](https://github.com/jeppesens/eufy-clean)
+- 💪 Opened PR [#206](https://github.com/jeppesens/eufy-clean/pull/206) in [jeppesens/eufy-clean](https://github.com/jeppesens/eufy-clean)
+- 💪 Opened PR [#205](https://github.com/jeppesens/eufy-clean/pull/205) in [jeppesens/eufy-clean](https://github.com/jeppesens/eufy-clean)
+- 🎉 Merged PR [#190](https://github.com/jeppesens/eufy-clean/pull/190) in [jeppesens/eufy-clean](https://github.com/jeppesens/eufy-clean)
 - 🗣 Commented on [#18](https://github.com/networkedartifacts/airlab/issues/18) in [networkedartifacts/airlab](https://github.com/networkedartifacts/airlab)
-- 🗣 Commented on [#16](https://github.com/networkedartifacts/airlab/issues/16) in [networkedartifacts/airlab](https://github.com/networkedartifacts/airlab)
-- ❗️ Opened issue [#16](https://github.com/networkedartifacts/airlab/issues/16) in [networkedartifacts/airlab](https://github.com/networkedartifacts/airlab)
 <!--END_SECTION:activity-->
 
 ---
