@@ -1,6 +1,6 @@
 {
   "user": "atrepca",
-  "generated": "2026-11-02",
+  "generated": "2026-11-09",
   "prs": [
     {
       "repo": "example42/puppet-splunk",
@@ -169,6 +169,22 @@
       "url": "https://github.com/jeppesens/eufy-clean/pull/190",
       "state": "merged",
       "date": "2026-11-02"
+    },
+    {
+      "repo": "jeppesens/eufy-clean",
+      "number": 206,
+      "title": "feat: per-model reset buttons, add Reset Dust Bag",
+      "url": "https://github.com/jeppesens/eufy-clean/pull/206",
+      "state": "open",
+      "date": "2026-11-07"
+    },
+    {
+      "repo": "jeppesens/eufy-clean",
+      "number": 205,
+      "title": "fold default-model dust bag check into test_sensor",
+      "url": "https://github.com/jeppesens/eufy-clean/pull/205",
+      "state": "open",
+      "date": "2026-11-07"
     }
   ],
   "repos": {
@@ -190,7 +206,7 @@
     },
     "antonbabenko/terraform-skill": {
       "name": "antonbabenko/terraform-skill",
-      "stars": 2434,
+      "stars": 2457,
       "description": "Terraform & OpenTofu Skill for AI Agents - testing, modules, CI/CD, and production patterns",
       "all_prs": "https://github.com/antonbabenko/terraform-skill/pulls?q=is:pr+author:atrepca+is:merged",
       "area": "AI tooling",
@@ -222,7 +238,7 @@
     },
     "jdeath/rd200v2": {
       "name": "jdeath/rd200v2",
-      "stars": 149,
+      "stars": 153,
       "description": "RadonEye RD200 Version 2 Integration for Home Assistant",
       "all_prs": "https://github.com/jdeath/rd200v2/pulls?q=is:pr+author:atrepca+is:merged",
       "area": "Other",
@@ -230,7 +246,7 @@
     },
     "jeppesens/eufy-clean": {
       "name": "jeppesens/eufy-clean",
-      "stars": 227,
+      "stars": 228,
       "description": "Eufy Clean Home Assistant Custom Component",
       "all_prs": "https://github.com/jeppesens/eufy-clean/pulls?q=is:pr+author:atrepca+is:merged",
       "area": "Home automation",
@@ -246,7 +262,7 @@
     },
     "mail-in-a-box/mailinabox": {
       "name": "mail-in-a-box/mailinabox",
-      "stars": 15454,
+      "stars": 15461,
       "description": "Mail-in-a-Box helps individuals take back control of their email by defining a one-click, easy-to-deploy SMTP+everything else server: a mail server in a box.",
       "all_prs": "https://github.com/mail-in-a-box/mailinabox/pulls?q=is:pr+author:atrepca+is:merged",
       "area": "Self-hosting",
@@ -270,7 +286,7 @@
     },
     "rvm/rvm": {
       "name": "rvm/rvm",
-      "stars": 5189,
+      "stars": 5187,
       "description": "Ruby enVironment Manager (RVM)",
       "all_prs": "https://github.com/rvm/rvm/pulls?q=is:pr+author:atrepca+is:merged",
       "area": "Dev tooling",
@@ -286,7 +302,7 @@
     },
     "terraform-aws-modules/terraform-aws-rds-aurora": {
       "name": "terraform-aws-modules/terraform-aws-rds-aurora",
-      "stars": 422,
+      "stars": 421,
       "description": "Terraform module to create AWS RDS Aurora resources \ud83c\uddfa\ud83c\udde6",
       "all_prs": "https://github.com/terraform-aws-modules/terraform-aws-rds-aurora/pulls?q=is:pr+author:atrepca+is:merged",
       "area": "IaC",
@@ -339,7 +355,7 @@
       {
         "pr": 1,
         "x": 66.2,
-        "y": 65.6
+        "y": 65.7
       },
       {
         "pr": 2,
@@ -354,7 +370,7 @@
       {
         "pr": 4,
         "x": 147.9,
-        "y": 105.4
+        "y": 105.5
       },
       {
         "pr": 5,
@@ -364,7 +380,7 @@
       {
         "pr": 6,
         "x": 205.4,
-        "y": 147.9
+        "y": 148.0
       },
       {
         "pr": 7,
@@ -414,7 +430,7 @@
       {
         "pr": 16,
         "x": 818.9,
-        "y": 77.9
+        "y": 77.7
       },
       {
         "pr": 17,
@@ -429,12 +445,22 @@
       {
         "pr": 19,
         "x": 843.4,
-        "y": 123.0
+        "y": 122.5
       },
       {
         "pr": 20,
         "x": 845.5,
-        "y": 116.2
+        "y": 116.1
+      },
+      {
+        "pr": 21,
+        "x": 846.4,
+        "y": 116.1
+      },
+      {
+        "pr": 22,
+        "x": 846.4,
+        "y": 116.1
       }
     ],
     "labels": [
@@ -452,10 +478,10 @@
         "repo": "antonbabenko/terraform-skill",
         "text": "terraform-skill",
         "x": 706.9,
-        "y": 81.9,
+        "y": 81.7,
         "leader": false,
         "px": 818.9,
-        "py": 77.9,
+        "py": 77.7,
         "lx": 811.9
       },
       {
@@ -471,21 +497,21 @@
       {
         "repo": "jeppesens/eufy-clean",
         "text": "eufy-clean",
-        "x": 767.5,
-        "y": 104.2,
+        "x": 768.4,
+        "y": 104.1,
         "leader": true,
-        "px": 845.5,
-        "py": 116.2,
-        "lx": 838.5
+        "px": 846.4,
+        "py": 116.1,
+        "lx": 839.4
       },
       {
         "repo": "jdeath/rd200v2",
         "text": "rd200v2",
         "x": 785.8,
-        "y": 159.0,
+        "y": 158.5,
         "leader": true,
         "px": 843.4,
-        "py": 123.0,
+        "py": 122.5,
         "lx": 836.4
       },
       {
