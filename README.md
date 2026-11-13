@@ -18,11 +18,11 @@ I'm a Site Reliability Engineer. I keep large production systems running, with m
 
 ### recent activity
 <!--START_SECTION:activity-->
+- ❗️ Opened issue [#3](https://github.com/iluvdata/ha-chandler-legacy-view/issues/3) in [iluvdata/ha-chandler-legacy-view](https://github.com/iluvdata/ha-chandler-legacy-view)
 - 🗣 Commented on [#363](https://github.com/NicoIIT/ha-ble-adv/issues/363) in [NicoIIT/ha-ble-adv](https://github.com/NicoIIT/ha-ble-adv)
 - 🗣 Commented on [#364](https://github.com/NicoIIT/ha-ble-adv/issues/364) in [NicoIIT/ha-ble-adv](https://github.com/NicoIIT/ha-ble-adv)
 - ❗️ Opened issue [#364](https://github.com/NicoIIT/ha-ble-adv/issues/364) in [NicoIIT/ha-ble-adv](https://github.com/NicoIIT/ha-ble-adv)
 - ❗️ Opened issue [#363](https://github.com/NicoIIT/ha-ble-adv/issues/363) in [NicoIIT/ha-ble-adv](https://github.com/NicoIIT/ha-ble-adv)
-- 🗣 Commented on [#190](https://github.com/jeppesens/eufy-clean/issues/190) in [jeppesens/eufy-clean](https://github.com/jeppesens/eufy-clean)
 <!--END_SECTION:activity-->
 
 ---
