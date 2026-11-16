@@ -1,6 +1,6 @@
 {
   "user": "atrepca",
-  "generated": "2026-11-09",
+  "generated": "2026-11-16",
   "prs": [
     {
       "repo": "example42/puppet-splunk",
@@ -206,7 +206,7 @@
     },
     "antonbabenko/terraform-skill": {
       "name": "antonbabenko/terraform-skill",
-      "stars": 2457,
+      "stars": 2468,
       "description": "Terraform & OpenTofu Skill for AI Agents - testing, modules, CI/CD, and production patterns",
       "all_prs": "https://github.com/antonbabenko/terraform-skill/pulls?q=is:pr+author:atrepca+is:merged",
       "area": "AI tooling",
@@ -230,7 +230,7 @@
     },
     "hashicorp/puppet-bootstrap": {
       "name": "hashicorp/puppet-bootstrap",
-      "stars": 442,
+      "stars": 443,
       "description": "A collection of single-file scripts to bootstrap your machines with Puppet.",
       "all_prs": "https://github.com/hashicorp/puppet-bootstrap/pulls?q=is:pr+author:atrepca+is:merged",
       "area": "Config management",
@@ -246,7 +246,7 @@
     },
     "jeppesens/eufy-clean": {
       "name": "jeppesens/eufy-clean",
-      "stars": 228,
+      "stars": 231,
       "description": "Eufy Clean Home Assistant Custom Component",
       "all_prs": "https://github.com/jeppesens/eufy-clean/pulls?q=is:pr+author:atrepca+is:merged",
       "area": "Home automation",
@@ -262,7 +262,7 @@
     },
     "mail-in-a-box/mailinabox": {
       "name": "mail-in-a-box/mailinabox",
-      "stars": 15461,
+      "stars": 15470,
       "description": "Mail-in-a-Box helps individuals take back control of their email by defining a one-click, easy-to-deploy SMTP+everything else server: a mail server in a box.",
       "all_prs": "https://github.com/mail-in-a-box/mailinabox/pulls?q=is:pr+author:atrepca+is:merged",
       "area": "Self-hosting",
@@ -360,17 +360,17 @@
       {
         "pr": 2,
         "x": 84.5,
-        "y": 127.5
+        "y": 127.6
       },
       {
         "pr": 3,
         "x": 114.6,
-        "y": 131.0
+        "y": 131.1
       },
       {
         "pr": 4,
         "x": 147.9,
-        "y": 105.5
+        "y": 105.4
       },
       {
         "pr": 5,
@@ -410,7 +410,7 @@
       {
         "pr": 12,
         "x": 716.0,
-        "y": 131.0
+        "y": 131.1
       },
       {
         "pr": 13,
@@ -450,17 +450,17 @@
       {
         "pr": 20,
         "x": 845.5,
-        "y": 116.1
+        "y": 115.9
       },
       {
         "pr": 21,
         "x": 846.4,
-        "y": 116.1
+        "y": 115.9
       },
       {
         "pr": 22,
         "x": 846.4,
-        "y": 116.1
+        "y": 115.9
       }
     ],
     "labels": [
@@ -498,10 +498,10 @@
         "repo": "jeppesens/eufy-clean",
         "text": "eufy-clean",
         "x": 768.4,
-        "y": 104.1,
+        "y": 103.9,
         "leader": true,
         "px": 846.4,
-        "py": 116.1,
+        "py": 115.9,
         "lx": 839.4
       },
       {
@@ -518,10 +518,10 @@
         "repo": "MNThomson/terraform-provider-dominos",
         "text": "terraform-provider-dominos",
         "x": 529.2,
-        "y": 135.0,
+        "y": 135.1,
         "leader": false,
         "px": 716.0,
-        "py": 131.0,
+        "py": 131.1,
         "lx": 709.0
       },
       {
